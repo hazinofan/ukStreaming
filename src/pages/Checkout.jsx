@@ -87,8 +87,7 @@ export default function Checkout() {
                   id="name"
                   name="full_name"
                   placeholder="John Doe"
-                  className="mt-1 block w-full mb-4 rounded border-white bg-transparent-50 py-3 px-4 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-sky-500"
-                  style={{ background: "transparent" }}
+                  className="mt-1 block w-full mb-4 rounded border-white bg-[#ffffff1c] py-3 px-4 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-sky-500"
                   required
                   value={full_name}
                   onChange={(e) => setFull_name(e.target.value)}
@@ -101,8 +100,7 @@ export default function Checkout() {
                   id="email"
                   name="email"
                   placeholder="john.capler@fang.com"
-                  className="mt-1 block w-full rounded border-white bg-transparent-50 py-3 px-4 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
-                  style={{ background: "transparent" }}
+                  className="mt-1 block w-full rounded border-white bg-[#ffffff1c] py-3 px-4 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -117,8 +115,7 @@ export default function Checkout() {
                   id="country"
                   name="country"
                   placeholder="United Kingdom"
-                  className="block w-full mt-2 rounded border-white bg-transparent-50 py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
-                  style={{ background: "transparent" }}
+                  className="block w-full mt-2 rounded border-white bg-[#ffffff1c] py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
                   value={country}
                   onChange={(e) => setCountry(e.target.value)}
                 />
@@ -138,8 +135,7 @@ export default function Checkout() {
                   name="phone"
                   placeholder="United Kingdom"
                   pattern="\d*" // This pattern ensures that only digits can be entered
-                  className="block w-full mt-2 rounded border-white bg-transparent py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
-                  style={{ background: "transparent" }}
+                  className="block w-full mt-2 rounded border-white bg-[#ffffff1c] py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -159,8 +155,8 @@ export default function Checkout() {
                   placeholder="Additional information here"
                   rows="5"
                   cols="50"
-                  className="block w-full mt-2 rounded border-white bg-transparent py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
-                  style={{ background: "transparent", minHeight: "150px", resize: "vertical" }}
+                  className="block w-full mt-2 rounded border-white bg-[#ffffff1c] py-3 px-4 pr-10 text-sm placeholder-white-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
+                  style={{ minHeight: "150px", resize: "vertical" }}
                   value={additional_message}
                   onChange={(e) => setAdditional_message(e.target.value)}
                 ></textarea>

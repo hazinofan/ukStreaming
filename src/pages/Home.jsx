@@ -286,7 +286,7 @@ export default function Home() {
               <p className="flex items-center gap-2">
                 France
                 <img
-                  src="https://cdn11.bigcommerce.com/s-w6fxwapwzi/images/stencil/original/products/2520/5327/2x3-france-flag-image__99609.1582735689.jpg?c=1"
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png"
                   alt="France IPTV"
                   width={30}
                   height={20}
@@ -316,7 +316,7 @@ export default function Home() {
               <p className="flex items-center gap-2">
                 Belgium
                 <img
-                  src="https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/2818/5108/BelgiumFlag__85496.1605195159.jpg?c=2"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Flag_of_Belgium.png"
                   alt="Best iptv service uk"
                   width={30}
                   height={20}
