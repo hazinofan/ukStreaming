@@ -18,56 +18,55 @@
 
   <!-- Product Details Page (dynamic URLs) -->
   <url>
-    <loc>https://ukstreaming.uk/produits/1</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/1</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/2</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/2</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/3</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/3</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/4</loc> <!-- Replace {name} with actual product names -->
-    <lastmod>2024-10-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://ukstreaming.uk/produits/5</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/4</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/6</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/5</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/7</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/6</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/8</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/7</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/produits/9</loc> <!-- Replace {name} with actual product names -->
+    <loc>https://ukstreaming.uk/produits/8</loc>
+    <lastmod>2024-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ukstreaming.uk/produits/9</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -81,7 +80,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- blog Page -->
+  <!-- Blog Page -->
   <url>
     <loc>https://ukstreaming.uk/blog</loc>
     <lastmod>2024-10-01</lastmod>
@@ -91,37 +90,37 @@
 
   <!-- Blog Details Page (dynamic URLs) -->
   <url>
-    <loc>https://ukstreaming.uk/blog/1</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/1</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/blog/2</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/2</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/blog/3</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/3</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/blog/4</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/4</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/blog/5</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/5</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ukstreaming.uk/blog/6</loc> <!-- Replace {id} with actual blog post IDs -->
+    <loc>https://ukstreaming.uk/blog/6</loc>
     <lastmod>2024-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -134,3 +133,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+</urlset>
