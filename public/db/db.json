@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id" : 1,
+      "title": "1-MONTH PREMIUM SUBSCRIPTION",
+      "category": "PREMIUM",
+      "price": 20,
+      "price_before": 25,
+      "description" : "UK Streaming offers you access to the most advanced technology in the world for broadcasting channels. With our expertise acquired over the years, our IPTV subscriptions are of exceptional quality. Our premium 1-month IPTV subscription includes a diverse range of channels, including adult channels, with over 22,500 channels available, as well as a library of over 50,000 movies and series. Our server is not only efficient and stable but also constantly updated to provide you with a smooth and uninterrupted viewing experience."
+    },
+    {
+      "id" : 2,
+      "title": "3-MONTH PREMIUM SUBSCRIPTION",
+      "category": "PREMIUM",
+      "price": 30,
+      "price_before": 35,
+      "description" : "Experience the pinnacle of IPTV technology with UK Streaming's 3-month subscription plan. Gain access to over 22,500 high-quality channels, including exclusive adult content, and enjoy a vast library of more than 50,000 movies and series. Our state-of-the-art servers are optimized for performance and stability, ensuring a seamless and uninterrupted viewing experience. Constant updates guarantee that you always have access to the latest content."
+    },
+    {
+      "id" : 3,
+      "title": "6-MONTH PREMIUM SUBSCRIPTION",
+      "category": "PREMIUM",
+      "price": 40,
+      "price_before": 52,
+      "description" : "Unlock half a year of unparalleled entertainment with UK Streaming's 6-month IPTV subscription. Our premium package offers a comprehensive selection of over 22,500 channels, including specialized adult content, and an extensive library featuring over 50,000 movies and series. Benefit from our advanced, stable servers that are regularly updated to deliver an exceptional viewing experience, free from disruptions."
+    },
+    {
+      "id" : 4,
+      "title": "12-MONTH PREMIUM SUBSCRIPTION",
+      "category": "PREMIUM",
+      "price": 55,
+      "price_before": 70,
+      "description" : "Commit to a full year of superior streaming with UK Streaming's 12-month IPTV subscription. Enjoy a wide array of over 22,500 channels, inclusive of exclusive adult content, and a rich collection of more than 50,000 movies and series. Our cutting-edge servers are designed for maximum performance and reliability, continually updated to ensure a smooth and uninterrupted viewing experience throughout your subscription."
+    },
+    {
+      "id" : 5,
+      "title": "1-MONTH STANDARD SUBSCRIPTION",
+      "category": "STANDARD",
+      "price": 18,
+      "price_before": 22,
+      "description" : "UK Streaming offers you access to the most advanced technology in the world for broadcasting channels. With our expertise acquired over the years, our IPTV subscriptions are of exceptional quality. Our standard 1-month IPTV subscription includes a diverse range of channels, including adult channels, with over 22,500 channels available, as well as a library of over 50,000 movies and series. Our server is not only efficient and stable but also constantly updated to provide you with a smooth and uninterrupted viewing experience."
+    },
+    {
+      "id" : 6,
+      "title": "3-MONTH STANDARD SUBSCRIPTION",
+      "category": "STANDARD",
+      "price": 28,
+      "price_before": 32,
+      "description" : "Experience the pinnacle of IPTV technology with UK Streaming's 3-month subscription plan. Gain access to over 22,500 high-quality channels, including exclusive adult content, and enjoy a vast library of more than 50,000 movies and series. Our state-of-the-art servers are optimized for performance and stability, ensuring a seamless and uninterrupted viewing experience. Constant updates guarantee that you always have access to the latest content."
+    },
+    {
+      "id" : 7,
+      "title": "6-MONTH STANDARD SUBSCRIPTION",
+      "category": "STANDARD",
+      "price": 38,
+      "price_before": 46,
+      "description" : "Unlock half a year of unparalleled entertainment with UK Streaming's 6-month IPTV subscription. Our premium package offers a comprehensive selection of over 22,500 channels, including specialized adult content, and an extensive library featuring over 50,000 movies and series. Benefit from our advanced, stable servers that are regularly updated to deliver an exceptional viewing experience, free from disruptions."
+    },
+    {
+      "id" : 8,
+      "title": "12-MONTH STANDARD SUBSCRIPTION",
+      "category": "STANDARD",
+      "price": 50,
+      "price_before": 68,
+      "description" : "Commit to a full year of superior streaming with UK Streaming's 12-month IPTV subscription. Enjoy a wide array of over 22,500 channels, inclusive of exclusive adult content, and a rich collection of more than 50,000 movies and series. Our cutting-edge servers are designed for maximum performance and reliability, continually updated to ensure a smooth and uninterrupted viewing experience throughout your subscription."
+    },
+    {
+      "id" : 9,
+      "title": "PLATINUM ELITE SUBSCRIPTION 14-MONTHS",
+      "category": "PREMIUM",
+      "price": 90,
+      "price_before": 119.99,
+      "description" : "Upgrade to the ultimate IPTV experience with UK Streaming's 14-month Elite Platinum subscription. This premium plan offers an unparalleled selection of over 25,000 channels, including exclusive adult content, and a massive library of more than 60,000 movies and series. Enjoy enhanced support and personalized assistance, ensuring you get the most out of your subscription. Our top-tier servers provide exceptional performance and stability, with regular updates to keep your viewing experience smooth and uninterrupted. Indulge in the best of entertainment with our most comprehensive and advanced IPTV offering."
+    }
+  ]
+}
