@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import { CiMail, CiStar } from 'react-icons/ci'
-import { MdOutlineDriveFileRenameOutline } from 'react-icons/md'
-import { TiStarFullOutline } from 'react-icons/ti'
-import recomm from '../assets/recommended.png'
+import React, { useEffect, useState } from 'react';
+import { CiMail } from 'react-icons/ci';
+import { MdOutlineDriveFileRenameOutline } from 'react-icons/md';
+import { TiStarFullOutline } from 'react-icons/ti';
 
 function CommentSection() {
-
-    const [showPopup, setShowPopup] = useState(false)
+    const [showPopup, setShowPopup] = useState(false);
 
     const names = [
         "Oliver.Smith",
@@ -88,43 +86,27 @@ function CommentSection() {
     ]);
 
     const togglePopUp = () => {
-        setShowPopup(!showPopup)
-    }
+        setShowPopup(!showPopup);
+    };
 
     const [messageVisible, setMessageVisible] = useState(false);
     const [comment, setComment] = useState('');
     const [randomComments, setRandomComments] = useState([]);
-    const [randomNames, setRandomNames] = useState(''); 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
+    const [randomNames, setRandomNames] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-    
-        // Handle the comment submission logic here (e.g., send it to the server)
-    
-        // Show the confirmation message
         setMessageVisible(true);
-    
-        // Clear the form fields
-        setName('');
-        setEmail('');
         setComment('');
-    
-        // Hide the message after a few seconds
         setTimeout(() => {
-          setMessageVisible(false);
-        }, 5000); // Adjust the timeout duration as needed
-      };
+            setMessageVisible(false);
+        }, 5000);
+    };
 
-
-
-      useEffect(() => {
-        // Function to get unique random items from an array
+    useEffect(() => {
         const getUniqueRandomItems = (arr, num) => {
             let results = [];
             let usedIndexes = new Set();
-
             while (results.length < num) {
                 let index = Math.floor(Math.random() * arr.length);
                 if (!usedIndexes.has(index)) {
@@ -132,14 +114,11 @@ function CommentSection() {
                     results.push(arr[index]);
                 }
             }
-
             return results;
         };
-
         setRandomComments(getUniqueRandomItems(comments, 3));
         setRandomNames(getUniqueRandomItems(names, 3));
-    }, []);
-
+    }, [comments, names]);  // Added missing dependencies
   return (
     <div>
         <section class="py-24 relative bg-black">

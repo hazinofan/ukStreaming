@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.webp';  // Use WebP format
+import logo from '../assets/logo.webp';  // Ensure logo is used
 import '../index.css';
 import { SidebarContext } from '../components/SideBarContext';
 
@@ -20,7 +20,7 @@ export default function Navbar() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, []); // No dependencies in useEffect, so this is fine.
 
   return (
     <div
@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="flex flex-col w-full p-2 mx-auto md:items-center md:justify-between md:flex-row">
         <div className="flex flex-row items-center justify-between w-full md:w-auto">
           <Link to='/' className={`font-bold tracking-tighter uppercase hazinofan ${atTop ? 'md:text-white text-white' : 'text-white md:text-black'}`} aria-label="Go to Home Page">
-            <img src={logo} alt="UK Streaming logo" className=' ml-10 md:ml-0' width='128' height='auto' loading="lazy"/>  {/* Descriptive alt text */}
+            <img src={logo} alt="UK Streaming logo" className=' ml-10 md:ml-0' width='128' height='auto' loading="lazy"/>  
           </Link>
           <button className="md:hidden focus:outline-none" onClick={() => setOpen(!open)} aria-label="Toggle navigation menu">
             <GiHamburgerMenu className={`block icon_nav ${atTop ? 'text-white' : 'text-blue-600'}`} />
@@ -74,7 +74,7 @@ export default function Navbar() {
         <div className={`fixed hidden top-0 right-0 w-64 backdrop-blur-lg bg-white bg-opacity-75 h-full shadow-lg z-50 p-4 transition-transform duration-500 mt-24 rounded-xl ${sideDivOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <h2 className="text-2xl font-bold mb-4 text-red-600 border-b border-red-500">My Cart</h2>
           <div className='flex gap-2 items-center border-b-2 border-white pb-3'>
-            <img src="https://ceoiptv.com/wp-content/uploads/2023/10/product-300x300.png" alt="3-Months Subscription Premium" className='w-24' width='128' height='auto' loading="lazy"/>  {/* Descriptive alt text */}
+            <img src="https://ceoiptv.com/wp-content/uploads/2023/10/product-300x300.png" alt="3-Months Subscription Premium" className='w-24' width='128' height='auto' loading="lazy"/>  
             <p className='text-sm' style={{ fontFamily: 'Merriweather, sans-serif', justifyContent: "center" }}> 3-MONTHS SUBSCRIPTION PREMIUM </p>
           </div>
           <Link className="mt-4 px-4 py-2 bg-blue-500 text-white rounded" onClick={toggleSideDiv} aria-label="Close Shopping Cart">

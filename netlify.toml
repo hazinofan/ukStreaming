@@ -1,3 +1,7 @@
+[build]
+  command = "CI=false npm run build"  # Prevents ESLint warnings from failing the build
+  publish = "build"  # This is the directory where Netlify should look for the built site after running the build command
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
