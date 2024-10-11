@@ -32,7 +32,7 @@ export default function Footer() {
                       <div className="flex justify-between">
                         <p className='flex items-center gap-4 pb-12 text-gray-500' style={{ fontFamily: 'Oswald, sans-serif'}}> 
                           <MdSupportAgent className=' text-blue-600 text-2xl'/>
-                          +44 7453 930081
+                          +1 (276) 300-1517
                         </p>
                         <p className='flex items-center gap-4 pb-12 text-gray-500' style={{ fontFamily: 'Oswald, sans-serif'}}> 
                           <MdEmail className=' text-blue-600 text-2xl'/>
